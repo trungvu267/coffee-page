@@ -1,10 +1,10 @@
-require
+Prerequisites
 
 ```
 using node version 18.0.0 or higher
 ```
 
-install web
+Install web
 
 ```
 yarn install
@@ -12,7 +12,7 @@ or
 npm install
 ```
 
-run
+Run
 
 ```
 yarn start or npm run start
