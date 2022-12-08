@@ -4,7 +4,11 @@
 module.exports = {
   siteMetadata: {
     title: `Coffe-page`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-sitemap"]
-};
+  plugins: [
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-postcss',
+  ],
+}
