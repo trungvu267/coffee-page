@@ -5,7 +5,15 @@ import AboutSection2 from '../components/AboutSection2'
 import HighlightProducts from '../components/HighlightProducts'
 import Footer from '../components/Footer'
 import BookTable from '../components/BookTable'
+import { useScroll } from 'framer-motion'
 const IndexPage = () => {
+  const { scrollY } = useScroll()
+
+  React.useEffect(() => {
+    return scrollY.onChange((latest) => {
+      console.log('Page scroll: ', latest)
+    })
+  }, [])
   return (
     <>
       <HeroSection />

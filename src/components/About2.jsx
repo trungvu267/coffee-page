@@ -1,5 +1,4 @@
 import React from 'react'
-import about2 from '../assets/about2.jpg'
 import { about } from '../data'
 const AboutSection2 = () => {
   return (
@@ -13,7 +12,7 @@ const AboutSection2 = () => {
         </div>
       </div>
       <div className="flex justify-center w-[100%] h-[70vh] bg-red-500">
-        <img src={about2} />
+        {about[1].imageLink}
       </div>
     </div>
   )
