@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 const HeroSection = () => {
   return (
     <motion.div
+      id="home"
       className=" h-[100vh]"
       style={{
         backgroundImage: `url(${bg})`,

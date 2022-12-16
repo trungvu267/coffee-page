@@ -5,7 +5,10 @@ import AnimationTitle from './AnimationTitle'
 import AnimationDesc from './AnimationDesc'
 const AboutSection = () => {
   return (
-    <div className="max-w-5xl mx-auto grid grid-cols-2 grid-flow-col">
+    <div
+      id="aboutUs"
+      className="max-w-5xl mx-auto grid grid-cols-2 grid-flow-col"
+    >
       <motion.div
         className="flex justify-end  h-[80vh]"
         initial={{ y: 10, opacity: 0 }}

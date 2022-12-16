@@ -19,10 +19,18 @@ const Menu = () => {
       className="flex justify-center items-center flex-row space-x-6 p-4 rounded-md"
       style={{ backgroundColor: 'rgba(144, 106, 71, 0.5)' }}
     >
-      <div className="text-2xl font-bold">Home</div>
-      <div className="text-2xl font-bold">About us</div>
-      <div className="text-2xl font-bold">Book table</div>
-      <div className="text-2xl font-bold">Contact</div>
+      <div className="text-2xl font-bold cursor-pointer hover:text-white">
+        <a href="#home">Home</a>
+      </div>
+      <div className="text-2xl font-bold cursor-pointer hover:text-white">
+        <a href="#aboutUs">About us</a>
+      </div>
+      <div className="text-2xl font-bold cursor-pointer hover:text-white">
+        <a href="#bookTable">Book table</a>
+      </div>
+      <div className="text-2xl font-bold cursor-pointer hover:text-white">
+        <a href="#contactUs">Contact</a>
+      </div>
     </div>
   )
 }

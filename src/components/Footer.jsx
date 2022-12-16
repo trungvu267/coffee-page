@@ -2,7 +2,7 @@ import React from 'react'
 import coffeeLogo from '../assets/logo.png'
 const Footer = () => {
   return (
-    <div className="bg-[#1f1e1e]">
+    <div className="bg-[#1f1e1e]" id="contactUs">
       <div className="text-white max-w-5xl mx-auto grid grid-cols-6 mt-6 pt-6">
         <div className="col-span-2">
           <img src={coffeeLogo} style={{ width: '200px', height: '148px' }} />
